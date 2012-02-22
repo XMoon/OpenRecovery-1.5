@@ -1,0 +1,13 @@
+Steps to customize:
+1) compile the OpenRecovery main program:
+- download the full source of CyanogenMod (detailed instruction: http://bit.ly/aST7UY)
+- places the src to your CyanogenMod source root (like ~/CyanogenMod/bootable/open_recovery)
+- execute the command: . build/envsetup.sh && lunch cyanogen_sholes-eng && make open_recovery_STCU
+- get the open_rcvr.STCU and rename to recovery, copy to lite/ramdisk/sbin folder
+
+2) repack the fastboot image:
+- just execute two scripts: full/repackit.sh (open_recovery_lite.img) and cdrom/repackit.sh (open_recovery_full.img)
+
+3) repack the sbf image:
+- download SBF depacker (http://modmymobile.com/forums/402-general-motorola-android/530781-sbf-depacker-1-3-03-22-2011-a.html)
+- repack the recovery partition (open_recovery_lite.img) and cdrom partition (open_recovery_full.img) to zips/open_recovery.sbf

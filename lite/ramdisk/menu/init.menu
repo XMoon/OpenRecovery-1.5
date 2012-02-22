@@ -1,0 +1,11 @@
+Main Menu
+Reboot System:reboot:*
+Settings:menu:settings.menu
+USB Mass Storage Mode:shell:usb_mass_storage.sh
+Enable Nandroid:shell:enable_nandroid.sh
+Application Menu:menu:app.menu
+Run Script:scripted_menu:runscript.menu:menu_scripts.sh
+Apply Update:scripted_menu:customupdate.menu:menu_updates.sh
+Wipe Dalvik Cache:shell:wipe_dalvik_cache.sh
+Wipe Data / Factory Reset:wipe_data:*
+Wipe Cache Partition:wipe_cache:*

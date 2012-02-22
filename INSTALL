@@ -1,0 +1,5 @@
+Steps to install:
+- copy the sdcard folder to the root of the sdcard and rename it to "OpenRecovery"
+- copy the correct zip file (see phones) from the zip folder to the root of the sdcard
+- flash the open_recovery.sbf image via sbf_flash (inside zips folder)
+  or flash open_recovery_lite.img to recovery partition and open_recovery_full.img to cdrom partition via fastboot (inside zips folder)
